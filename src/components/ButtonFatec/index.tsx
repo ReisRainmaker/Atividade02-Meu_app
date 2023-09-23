@@ -5,7 +5,7 @@ interface Props {
     label: string
 }
 
-function ButtonFatec({type, label}: Props) {
+export default function ButtonFatec({type, label}: Props) {
 
     return(
         <>
@@ -17,4 +17,3 @@ function ButtonFatec({type, label}: Props) {
 
 }
 
-export default ButtonFatec

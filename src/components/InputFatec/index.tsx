@@ -4,7 +4,7 @@ interface Props {
     placeholder: string
 }
 
-function ImputFatec({placeholder}: Props) {
+export default function ImputFatec({placeholder}: Props) {
 
     return(
         <>
@@ -16,4 +16,3 @@ function ImputFatec({placeholder}: Props) {
 
 }
 
-export default ImputFatec
