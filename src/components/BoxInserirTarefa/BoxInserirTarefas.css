@@ -1,0 +1,11 @@
+.linhaInsercao{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.conteudo {
+    margin-left: 10px;
+}
+.boxInserirTarefas {
+    padding: 10px;
+}
